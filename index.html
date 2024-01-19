@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Y A N A</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">Final Project</a></li>
+          <li><a href="#projects">Weekly Blog</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">John Doe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Final Project</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Weekly blog</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/1696255726078.jpeg" alt="Sulthana Safeer profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sulthana Safeer</h1>
+        <p class="section__text__p2"> 3rd Year B.Eng Computer System Student</p>
+        <p class="section__text__p1"> Middlesex University Dubai</p>
+        <div class="btn-container">
+          
+        
+      </div>
+    </section>
+    <section id="about">
+    
+     
+              <h3>About Me</h3>
+              <p>Sulthana Safeer<br />M00849556</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Driven and resourceful aspiring technologist with a strong foundation in both hardware and software development. 
+While lacking formal work experience, I have successfully completed numerous projects, demonstrating my dedication and ability to apply my skills effectively. Proficient in hardware technologies such as Arduino, Texas Instruments, and 
+other embedded systems, I have developed a solid understanding of their applications and implementation. On the 
+software side, I am adept in Python, Arduino IDE, Java, Android Studio, HTML, CSS, and JavaScript, allowing me to 
+tackle diverse programming challenges. Furthermore, my self-taught expertise in 2D animation, working with CAD, 
+SOLIDWORKS, Krita, Blender, and Adobe Photoshop, enables me to create visually appealing and engaging graphics. Aspiring to pursue a career as a data scientist, I am eager to secure an internship within a tech company to 
+gain practical experience and contribute to cutting-edge projects.
+In addition to my technical skills, I possess a strong passion for learning and staying up to date with the latest advancements in the field of technology. I actively engage in online communities, forums, and attend tech conferences to expand my knowledge and connect with like-minded individuals.
+As I aspire to become a data scientist, I understand the importance of data-driven decision-making and its impact on 
+driving business growth. I am enthusiastic about leveraging my programming and analytical skills to extract meaningful insights from vast amounts of data, enabling organizations to make informed decisions and optimize their operations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">All about my</p>
+      <h1 class="title">Final Project</h1> <br>
+      <div class="text-container">
+        <p>
+          AI,ML Based Mood detector 
+        </p>
+      </div>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#experience'"
+      />
+      <br> <br> <br>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Weekly Blog </h1>
+      <br> <br> <br> <br>
+      <div>
+         <p class="section__text__p2"> Week one - 18/01/2024 </p>
+         <p> Updating Blog> Information regarding Our Supervisors </p>
+         
+
+        <br> <br>
+
+      
+
+      </div>
+ 
+    
+    <script src="script.js"></script>
+  </body>
+</html>
